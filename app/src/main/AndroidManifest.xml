@@ -33,7 +33,7 @@
         </activity>
         <activity
             android:name=".Home"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Avistamiento"
             android:screenOrientation="portrait" />
@@ -81,7 +81,7 @@
         <activity
             android:name=".Rutas"
             android:label="@string/cardrutas"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -97,7 +97,23 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".mapaherrera"
+            android:label="@string/title_activity_mapaherrera" />
+        <activity
+            android:name=".MapSalada"
+            android:label="@string/title_activity_map_salada" />
+        <activity
+            android:name=".mapaVentanas"
+            android:label="@string/title_activity_mapa_ventanas" />
+        <activity
+            android:name=".mapaVerdun"
+            android:label="@string/title_activity_mapa_verdun" />
+        <activity
+            android:name=".SobreCotinga"
+            android:label="@string/title_activity_sobre_cotinga"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -12,6 +12,7 @@
     <string name="menu1"> Idioma </string>
     <string name="menu2"> Acerca de </string>
     <string name="menu3"> Enlaces de interés </string>
+    <string name="menu4"> Cotinga </string>
 
     <string name="submenu1"> Inglés </string>
     <string name="submenu2"> Español </string>
@@ -541,6 +542,61 @@
     <string name="d282">Muy común en lugares y parques urbanos</string>
 
     <string name="dfault"> Ave sin descripción disponible en el momento </string>
+
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapaherrera">Mapa La Herrera</string>
+    <string name="title_activity_map_salada">Mapa La Salada</string>
+    <string name="title_activity_map_ventanas">Mapa Ventanas</string>
+    <string name="title_activity_map_verdun">Mapa Verdun-Mesenia</string>
+
+
+    <!-- String ruta herrera-->
+    <string name="herrera1">Parque de Jardín</string>
+    <string name="herrera2">Camino de La Herrera</string>
+    <string name="herrera3">Charco Corazón del Rio</string>
+    <string name="herrera4">Ecoparque Camino de Piedra</string>
+    <string name="herrera5">Finca La Milagrosa</string>
+    <string name="herrera6">Bodeguita de Café</string>
+    <string name="herrera7">El señor de La Buena Esperanza</string>
+    <string name="herrera8">Escuela La Herrera</string>
+
+
+    <!-- String ruta salada-->
+    <string name="salada1">Parque de Jardín</string>
+    <string name="salada2">Liceo San Antonio</string>
+    <string name="salada3">Puente sobre la quebrada La Paraisa</string>
+    <string name="salada4">La Salada Sitio de Observación</string>
+    <string name="salada5">Puente Curvo Sitio de Observación</string>
+    <string name="salada6">Camino a la Cruz Punto de Encuentro</string>
+    <string name="salada7">Cristo Rey-Mirador</string>
+    <string name="salada8">La Plata- Charcos Naturales</string>
+
+
+    <!-- String ruta ventanas-->
+    <string name="ventanas1">Parque de Jardín</string>
+    <string name="ventanas2">Piscina Municipal</string>
+    <string name="ventanas3">Puente de encuentro la Ye</string>
+    <string name="ventanas4">El Mirador de los Robles</string>
+    <string name="ventanas5">Punto de Observación el Japón</string>
+    <string name="ventanas6">Punto de Observación La Sifuentes</string>
+    <string name="ventanas7">Punto de Observación Reserva Loro Orejiamarillo</string>
+    <string name="ventanas8">Casa del Colibrí</string>
+
+    <!-- String ruta verdun-->
+    <string name="verdun1">  Parque Jardín </string>
+    <string name="verdun2">  Puente Pizano </string>
+    <string name="verdun3">  Partidas para Verdun </string>
+    <string name="verdun4">  Rio Claro - Puente Verdun </string>
+    <string name="verdun5">  Partidas Gibraltar </string>
+    <string name="verdun6">  Escuela Gibraltar </string>
+    <string name="verdun7">  Alto Macanas </string>
+    <string name="verdun8">  Puente Chupadero </string>
+    <string name="verdun9">  Cañón La Floresta </string>
+    <string name="verdun10"> Casa reserva El Colibrí </string>
+    <string name="verdun11"> Paramillo punto Colibríes </string>
+    <string name="title_activity_mapa_ventanas">Map</string>
+    <string name="title_activity_mapa_verdun">Map</string>
+    <string name="title_activity_sobre_cotinga">SobreCotinga</string>
+
 
 </resources>

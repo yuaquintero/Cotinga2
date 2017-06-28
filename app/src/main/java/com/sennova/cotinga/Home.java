@@ -36,7 +36,7 @@ public class Home extends AppCompatActivity {
 
     Button avistamiento, aves, guias, rutas, turismo,recomienda;
     Locale locale;
-    MenuItem itemuno, itemdos, itemtres;
+    MenuItem itemuno, itemdos, itemtres, itemcuatro;
     private static ConnectivityManager manager;
     private final Context mContext=this;
     public static final int segundos=1; //Tiempo deseado para cargar bd
@@ -52,6 +52,8 @@ public class Home extends AppCompatActivity {
         itemuno = (MenuItem) findViewById(R.id.menu1);
         itemdos = (MenuItem) findViewById(R.id.menu2);
         itemtres = (MenuItem) findViewById(R.id.menu3);
+        itemcuatro = (MenuItem) findViewById(R.id.menu4);
+
         avistamiento = (Button) findViewById(R.id.boton_avistamiento);
         //aves = (ImageButton) findViewById(R.id.boton_aves);
         guias = (Button) findViewById(R.id.boton_guias);
@@ -222,6 +224,7 @@ public class Home extends AppCompatActivity {
         }
 
         if (id == R.id.submenu2) {
+
 
             Locale locale = new Locale("es");
             Locale.setDefault(locale);

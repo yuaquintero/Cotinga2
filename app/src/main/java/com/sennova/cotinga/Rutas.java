@@ -44,8 +44,8 @@ public class Rutas extends AppCompatActivity implements AdapterView.OnItemSelect
             @Override
             public void onClick(View v) {
                 int num =rv.getChildAdapterPosition(v);
-               // String msg="se presionó  "+ Integer.toString(num);
-               // Toast.makeText(Rutas.this,msg, Toast.LENGTH_SHORT).show();
+             //  String msg="se presionó  "+ Integer.toString(num);
+              // Toast.makeText(Rutas.this,msg, Toast.LENGTH_SHORT).show();
                 lanzarRuta(v,num);
             }
         });

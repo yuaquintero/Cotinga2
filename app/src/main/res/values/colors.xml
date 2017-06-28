@@ -2,13 +2,10 @@
 <resources>
     <item name="text_verde" type="color">#006e24</item>
     <item name="text_gris" type="color">#4c4c4c</item>
-    <color name="colorVerde">#78ae3f</color>
     <item name="verde" type="color">#78ae3f</item>
+    <item name="verdePrincipal" type="color">#008c30</item>
+    <item name="colorPrimary" type="color">#008c30</item>
 
-    <color name="activitybar">#008c30</color>
-    <color name="colorPrimary">#008c30</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
     <item name="black" type="color">#000000</item>
     <item name="navy" type="color">	#000080</item>
     <item name="darkblue" type="color">#00008b</item>
@@ -152,7 +149,7 @@
 
 
     <integer-array name="EditColors">
-
+        <item>@color/colorPrimary</item>
         <item>@color/black</item>
         <item>@color/navy</item>
         <item>@color/darkblue</item>
@@ -294,4 +291,3 @@
     </integer-array>
 
 </resources>
-
