@@ -1,6 +1,7 @@
 package com.sennova.cotinga;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v4.app.ActivityCompat;
@@ -11,12 +12,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Recomendaciones extends AppCompatActivity {
 
     ImageButton r1,r2,r3,r4,r5,r6,r7,r8,r10;
     Integer bandera=0;
+    private View miLayout;
+    final Context contexto = this;
+
 
     /**
      * Clase encargada de mostrar las recomendaciones dadas al usuario de la app a traves de la implementación de 9 Imagebuttons
@@ -29,18 +34,13 @@ public class Recomendaciones extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recomendaciones);
 
-
-
+        miLayout = findViewById(R.id.lydialogo);
         r1 = (ImageButton) findViewById(R.id.r1);
         r2 = (ImageButton) findViewById(R.id.r2);
         r3 = (ImageButton) findViewById(R.id.r3);
         r4 = (ImageButton) findViewById(R.id.r4);
         r5 = (ImageButton) findViewById(R.id.r5);
         r6 = (ImageButton) findViewById(R.id.r6);
-      //  r7 = (ImageButton) findViewById(R.id.r7);
-       // r8 = (ImageButton) findViewById(R.id.r8);
-     //   r10 = (ImageButton) findViewById(R.id.r10);
-
 
         r1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,32 +95,7 @@ public class Recomendaciones extends AppCompatActivity {
             }
         });
 
-       /* r7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                bandera=7;
-                openCustomDialog(view, bandera);
 
-            }
-        });
-
-        r8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                bandera=8;
-                openCustomDialog(view, bandera);
-
-            }
-        });
-
-        r10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                bandera=9;
-                openCustomDialog(view, bandera);
-
-            }
-        });*/
     }
     /**
      * Metodo que permite desplegar ventana emergente con la información solicitada
@@ -208,46 +183,6 @@ public class Recomendaciones extends AppCompatActivity {
                 });
                 dialog6.show();
                 break;
-        /*    case 7:
-                final Dialog dialog7 = new Dialog(this);
-                dialog7.setContentView(R.layout.reco7);
-                dialog7.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-                Button volver7 = (Button) dialog7.findViewById(R.id.volver7);
-                volver7.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        dialog7.dismiss();
-                    }
-                });
-                dialog7.show();
-                break;
-            case 8:
-                final Dialog dialog8 = new Dialog(this);
-                dialog8.setContentView(R.layout.reco8);
-                dialog8.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-                Button volver8 = (Button) dialog8.findViewById(R.id.volver8);
-                volver8.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        dialog8.dismiss();
-                    }
-                });
-                dialog8.show();
-                break;
-            case 9:
-                final Dialog dialog9 = new Dialog(this);
-                dialog9.setContentView(R.layout.reco9);
-                dialog9.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
-                Button volver9 = (Button) dialog9.findViewById(R.id.volver9);
-                volver9.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        dialog9.dismiss();
-                    }
-                });
-                dialog9.show();
-                break;*/
-
         }
 
     }
@@ -255,7 +190,7 @@ public class Recomendaciones extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        getMenuInflater().inflate(R.menu.menu_home, menu);
+        getMenuInflater().inflate(R.menu.info, menu);
         return true;
     }
 
@@ -264,13 +199,23 @@ public class Recomendaciones extends AppCompatActivity {
     {
         switch ( item.getItemId() )
         {
-            case R.id.boton_home:{
-                Intent Home = new Intent(Recomendaciones.this, Home.class);
-                ActivityCompat.finishAffinity(this);
-                startActivity(Home);
-                Home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                finish();
+            case R.id.boton_info:{
+                final Dialog dialog = new Dialog(contexto);
+                dialog.setContentView(R.layout.dialogo);
+                dialog.setTitle(R.string.info);
+                TextView TvDialogo =(TextView) dialog.findViewById(R.id.tv_dialogo);
+                TvDialogo.setText(R.string.recomiendame_dialogo);
+                Button botAceptar = (Button) dialog.findViewById(R.id.btDialogo);
 
+
+             botAceptar.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
             }
             break;
 

@@ -1,13 +1,19 @@
 package com.sennova.cotinga;
 
+import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 
@@ -23,12 +29,14 @@ public class Rutas extends AppCompatActivity implements AdapterView.OnItemSelect
     RecyclerView rv;
     public static List<Rutas_constructor> rutas;
     adaptadorRutas adapter;
+    private View miLayout;
+    final Context contexto = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rutas);
-
+        miLayout = findViewById(R.id.lydialogo);
         rv = (RecyclerView) findViewById(R.id.lista_rutas);
         rv.setLayoutManager(new LinearLayoutManager(this));
         rutas = new ArrayList<>();
@@ -77,4 +85,44 @@ public class Rutas extends AppCompatActivity implements AdapterView.OnItemSelect
         rutas.add(new Rutas_constructor("Verdun-Mesenia", "Ruta 3","", "24,62 Km"));
         rutas.add(new Rutas_constructor("Ventanas", "Ruta 4","", "19,75 Km"));
     }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.info, menu);
+        return true;
+    }
+
+
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch ( item.getItemId() )
+        {
+            case R.id.boton_info:{
+                final Dialog dialog = new Dialog(contexto);
+                dialog.setContentView(R.layout.dialogo);
+                dialog.setTitle(R.string.info);
+                TextView TvDialogo =(TextView) dialog.findViewById(R.id.tv_dialogo);
+                TvDialogo.setText(R.string.dialogo1);
+                Button botAceptar = (Button) dialog.findViewById(R.id.btDialogo);
+
+
+                botAceptar.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+            break;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+        return true;
+    }
+
 }

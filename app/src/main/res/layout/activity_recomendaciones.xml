@@ -2,6 +2,7 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lyreco"
     android:layout_width="match_parent"
     android:scrollbars="vertical"
     android:background="@drawable/recomendaciones"
@@ -27,7 +28,7 @@
             android:layout_weight="12"
             android:orientation="horizontal">
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:orientation="horizontal"
                 android:layout_height="wrap_content"
                 android:layout_weight="3">
@@ -36,6 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:gravity="center"
+                    android:textStyle="bold"
                     android:textSize="18sp"
                     android:textColor="@color/gray"
                     android:text="@string/recomiendame"/>

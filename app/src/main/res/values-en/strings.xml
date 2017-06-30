@@ -14,6 +14,7 @@
     <string name="menu1"> Language </string>
     <string name="menu2"> About us </string>
     <string name="menu3"> Links of interest</string>
+    <string name="menu4"> Cotinga </string>
 
     <string name="submenu1"> English </string>
     <string name="submenu2"> Spanish </string>
@@ -601,5 +602,17 @@
     <string name="title_activity_mapa_ventanas">Map</string>
     <string name="title_activity_mapa_verdun">Map</string>
 
+    <string name="title_activity_sobre_cotinga">Sobre Cotinga</string>
+
+    <string name="textjardin">Es una aplicación que muestra las aves que se pueden avistar en el municipio de Jardin (Ant.), además de rutas de avistamiento, sitios turísticos,
+        guías turísticos en la región y algunas recomendaciones para los turistas.</string>
+    <string name="textjardin2"> El propósito del proyecto es fomentar el turismo hacia el municipio.</string>
+    <string name="enlacejardin">www.eljardin-antioquia.gov.co/index.shtml</string>
+    <string name="btmap">Go to map</string>
+
+    <string name="info">Información</string>
+
+    <string name="dialogo1">En esta sección encontrará las rutas en las cuales es posible avistar las aves </string>
+    <string name="dialogo2">Es esta sección podrá acceder a la información detallada del ave seleccionada, tomar una fotografía y compartirla a través de redes sociales </string>
 
 </resources>

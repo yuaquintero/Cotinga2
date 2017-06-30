@@ -210,6 +210,11 @@ public class Home extends AppCompatActivity {
             return super.onOptionsItemSelected(item);
         }
 
+        if (id == R.id.menu4) {
+            Intent info = new Intent(Home.this, SobreCotinga.class);
+            startActivity(info);
+        }
+
         if (id == R.id.submenu1) {
 
             Locale locale = new Locale("en");

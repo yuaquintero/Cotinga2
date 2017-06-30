@@ -14,7 +14,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:background="@color/verde">
+    android:background="@drawable/borde2">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -47,16 +47,18 @@
          </LinearLayout>
 
     </LinearLayout>
-    <Button
-        android:id="@+id/botonmapa"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ir al mapa"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="16dp"
-        android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/botonmapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/btmap"
+            tools:style="@style/Base.Widget.AppCompat.Button.Small" />
 
 </RelativeLayout>
 
@@ -67,7 +69,6 @@
         />
     <LinearLayout
         android:id="@+id/lam_ruta"
-        android:paddingTop="2dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">

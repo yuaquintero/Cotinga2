@@ -1,5 +1,6 @@
 package com.sennova.cotinga;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,6 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -40,6 +43,8 @@ public class Avistamiento extends AppCompatActivity  {
     ImageView ivCriterio1, ivCriterio2, ivCriterio4, ivCriterio5 ;
     LinearLayout formitas,piquitos,colorsitos;
     Spinner sCriterio5, sCriterio4, sCriterio1, sCriterio2;
+    private View miLayout;
+    final Context contexto = this;
 
     //***** Declaración preferencias
     public SharedPreferences preferenciasfiltro;
@@ -49,6 +54,7 @@ public class Avistamiento extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_avistamiento);
+        miLayout = findViewById(R.id.lydialogo);
 
         //*****  Para guardar las preferencias
         preferenciasfiltro = contextofiltro.getSharedPreferences("Mispreferenciasfiltro", Context.MODE_PRIVATE);
@@ -288,6 +294,46 @@ public class Avistamiento extends AppCompatActivity  {
         });
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.info, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch ( item.getItemId() )
+        {
+            case R.id.boton_info:{
+                final Dialog dialog = new Dialog(contexto);
+                dialog.setContentView(R.layout.dialogo);
+                dialog.setTitle(R.string.info);
+                TextView TvDialogo =(TextView) dialog.findViewById(R.id.tv_dialogo);
+                TvDialogo.setText(R.string.filtro1_dialogo);
+                Button botAceptar = (Button) dialog.findViewById(R.id.btDialogo);
+
+
+                botAceptar.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
+            }
+            break;
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+        return true;
+    }
+
+
     @Override
     public void onBackPressed() {
         Intent Home = new Intent(Avistamiento.this, Home.class);
@@ -296,5 +342,8 @@ public class Avistamiento extends AppCompatActivity  {
         Home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         finish();
     }
+
+
+
 
 }

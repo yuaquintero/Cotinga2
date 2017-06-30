@@ -254,7 +254,7 @@
             android:layout_margin="15dp"
             android:alpha="0.8"
             android:text="@string/filtro2"
-            android:background="@color/colorPrimary"/>
+            android:background="@drawable/borde3"/>
 
     </LinearLayout>
 

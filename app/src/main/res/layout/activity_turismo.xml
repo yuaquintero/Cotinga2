@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back_2"
+    android:paddingBottom="10dp"
     >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/verde"
-        android:padding="10dp"
+        android:background="@drawable/borde2"
+        android:padding="6dp"
         >
         <Spinner
             android:id="@+id/sp_sitios"

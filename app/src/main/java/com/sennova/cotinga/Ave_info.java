@@ -1,6 +1,7 @@
 package com.sennova.cotinga;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
@@ -18,6 +19,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -54,6 +56,8 @@ public class Ave_info extends AppCompatActivity {
     String codigoact1;
     CheckBox avistamiento;
     LinearLayout avefoto;
+    private View miLayout2;
+    final Context contexto = this;
 
     String colorPrimarioR = "0"; String colorSecundarioR="0"; String formaAveR="0"; String formaPicoR="0";
 
@@ -108,6 +112,7 @@ public class Ave_info extends AppCompatActivity {
         avefoto=(LinearLayout)findViewById(R.id.fondoav);
         avistamiento=(CheckBox)findViewById(R.id.chequeo);
         miLayout = findViewById(R.id.activity_ave_info);
+        miLayout2 = findViewById(R.id.lydialogo);
         permiso = new Permisos(miLayout,Ave_info.this);
         camaraOk = false;
 
@@ -1478,12 +1483,12 @@ public class Ave_info extends AppCompatActivity {
     }
 
 
-  /*  @Override
+  @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
-        getMenuInflater().inflate(R.menu.menu_home, menu);
+        getMenuInflater().inflate(R.menu.info, menu);
         return true;
-    }*/
+    }
 
 
     @Override
@@ -1491,12 +1496,23 @@ public class Ave_info extends AppCompatActivity {
     {
         switch ( item.getItemId() )
         {
-            case R.id.boton_home:{
-                Intent Home = new Intent(Ave_info.this, Home.class);
-                ActivityCompat.finishAffinity(this);
-                startActivity(Home);
-                Home.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                finish();
+            case R.id.boton_info:{
+                final Dialog dialog = new Dialog(contexto);
+                dialog.setContentView(R.layout.dialogo);
+                dialog.setTitle(R.string.info);
+                TextView TvDialogo =(TextView) dialog.findViewById(R.id.tv_dialogo);
+                TvDialogo.setText(R.string.dialogo2);
+                Button botAceptar = (Button) dialog.findViewById(R.id.btDialogo);
+
+
+                botAceptar.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                dialog.show();
             }
             break;
 

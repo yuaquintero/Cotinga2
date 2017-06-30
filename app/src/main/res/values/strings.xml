@@ -3,10 +3,10 @@
     <string name="Titulo_Splash"> COTINGA </string>
 
     <string name="home"> home </string>
-    <string name="home1"> Aves </string>
-    <string name="home4"> Turismo </string>
+    <string name="home1"> Listado de Aves </string>
+    <string name="home4"> Sitios Turísticos </string>
     <string name="home5"> Rutas de Avistamiento </string>
-    <string name="home6"> Guías </string>
+    <string name="home6"> Guías turísticos </string>
     <string name="home7"> Recomendaciones </string>
 
     <string name="menu1"> Idioma </string>
@@ -85,8 +85,8 @@
     <string name="filtro2"> Buscar </string>
     <string name="filtro3"> Volver </string>
 
-    <string name="recomiendame_dialogo"> A continuación encontrará una serie de recomendaciones para que la experiencia de avistamiento de aves en Jardín sea agradable, segura y amigable con el medio ambiente</string>
-    <string name="recomiendame"> Pulse sobre cada globo para obtener información:</string>
+    <string name="recomiendame_dialogo"> En esta sección  encontrará una serie de recomendaciones para que la experiencia de avistamiento de aves en Jardín sea agradable, segura y amigable con el medio ambiente</string>
+    <string name="recomiendame"> Pulse sobre cada globo para obtener información</string>
 
     <string name="recor1"> - Tenga clara la ruta que quiere realizar </string>
     <string name="recor2"> - Use ropa cómoda y adecuada para la ocasión preferiblemente colores opacos y resistentes al agua </string>
@@ -594,9 +594,21 @@
     <string name="verdun9">  Cañón La Floresta </string>
     <string name="verdun10"> Casa reserva El Colibrí </string>
     <string name="verdun11"> Paramillo punto Colibríes </string>
+
     <string name="title_activity_mapa_ventanas">Map</string>
     <string name="title_activity_mapa_verdun">Map</string>
-    <string name="title_activity_sobre_cotinga">SobreCotinga</string>
+    <string name="title_activity_sobre_cotinga">Sobre Cotinga</string>
+
+    <string name="textjardin">Es una aplicación que muestra las aves que se pueden avistar en el municipio de Jardin (Ant.), además de rutas de avistamiento, sitios turísticos,
+        guías turísticos en la región y algunas recomendaciones para los turistas.</string>
+   <string name="textjardin2"> El propósito del proyecto es fomentar el turismo hacia el municipio.</string>
+    <string name="enlacejardin">www.eljardin-antioquia.gov.co/index.shtml</string>
+
+    <string name="btmap">Ir al mapa</string>
+    <string name="info">Información</string>
+
+    <string name="dialogo1">En esta sección encontrará las rutas en las cuales es posible avistar las aves </string>
+    <string name="dialogo2">Es esta sección podrá acceder a la información detallada del ave seleccionada, tomar una fotografía y compartirla a través de redes sociales </string>
 
 
 </resources>

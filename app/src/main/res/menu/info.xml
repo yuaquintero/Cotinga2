@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+        android:id="@+id/boton_info"
+        android:icon="@mipmap/ic_information_button"
+        app:showAsAction="always"
+        android:title=" informacion" />
+
+
+
+</menu>

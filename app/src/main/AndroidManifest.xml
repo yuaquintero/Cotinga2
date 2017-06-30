@@ -93,7 +93,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="AIzaSyBrlOwQH7SAyG6tTBf7h41YaIeKAErstbM" />
 
         <activity
             android:name=".MapsActivity"
@@ -110,10 +110,10 @@
         <activity
             android:name=".mapaVerdun"
             android:label="@string/title_activity_mapa_verdun" />
+
         <activity
             android:name=".SobreCotinga"
-            android:label="@string/title_activity_sobre_cotinga"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_sobre_cotinga" />
     </application>
 
 </manifest>
