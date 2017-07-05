@@ -88,7 +88,7 @@ public class adaptador_aves extends RecyclerView.Adapter<adaptador_aves.MyViewHo
                         case "Gallinazo o Chulo":
                             lanzarAve(view,numero[8]);
                             break;
-                        case "Aguila Pescadora":
+                        case "Águila Pescadora":
                             lanzarAve(view,numero[9]);
                             break;
                         case "Gorrión Picofino":
@@ -133,7 +133,7 @@ public class adaptador_aves extends RecyclerView.Adapter<adaptador_aves.MyViewHo
                         case "Halcón Reidor":
                             lanzarAve(view,numero[23]);
                             break;
-                        case "Cernícalo americano":
+                        case "Cernícalo Americano":
                             lanzarAve(view,numero[24]);
                             break;
                         case "Guacharaca":

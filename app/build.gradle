@@ -7,12 +7,11 @@ android {
         applicationId 'app.sennova.cotinga'
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        versionName '1.0.2'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
         aaptOptions.cruncherEnabled = false
         aaptOptions.useNewCruncher = false
+        versionCode 3
     }
     packagingOptions {
         exclude 'META-INF/LICENSE'

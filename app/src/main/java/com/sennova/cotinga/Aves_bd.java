@@ -70,7 +70,7 @@ public class Aves_bd extends SQLiteOpenHelper {
             "('4','4','9','10','10','Guardacaminos Lyra','Lyre-Tailed Nightjar','Uropsalis lyra','1','0','http://www.xeno-canto.org/291410','3','0'),"+
             "('9','3','9','10','10','Vencejo Acollarado','White-Collared Swift','Streptoprocne zonaris','1','0','http://www.xeno-canto.org/116378','15','0'),"+
             "('7','2','1','10','8','Garcita Verdosa','Green Heron ','Butorides virescens','0','0','http://www.xeno-canto.org/274175','8','0'),"+
-            "('13','4','11','10','6','Ermitaño Verde','Green Hermit','Phaethornis guy','1','0','http://www.xeno-canto.org/128060','15','0'),"+
+            "('13','4','11','10','3','Ermitaño Verde','Green Hermit','Phaethornis guy','1','0','http://www.xeno-canto.org/128060','15','0'),"+
             "('4','3','9','7','0','Cucarachero Chupahuevos','Bicolored Wren','Campylorhynchus griseus','1','0','http://www.xeno-canto.org/353887','10','0'),"+
             "('13','5','9','2','3','Colibrí Picolanza','Green-Fronted Lancebill','Doryfera ludovicae','1','0','http://www.xeno-canto.org/273887','15','0'),"+
             "('13','2','9','2','3','Colibrí Verdemar','Green Violet-Ear','Colibri thalassinus','1','0','http://www.xeno-canto.org/241503','15','0'),"+
