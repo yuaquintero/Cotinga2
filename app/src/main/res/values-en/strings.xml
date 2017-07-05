@@ -6,8 +6,8 @@
 
     <string name="home"> Home </string>
     <string name="home1"> Record Sighting </string>
-    <string name="home4"> Tourism </string>
-    <string name="home5"> Routes </string>
+    <string name="home4"> Tourist sites </string>
+    <string name="home5"> Routes of sighting</string>
     <string name="home6"> Guides</string>
     <string name="home7"> Recomendations </string>
 
@@ -22,7 +22,7 @@
     <string name="Acercade2"> This app was developed by the research and technologic development system, SENNOVA </string>
     <string name="Acercade3"> Copyrights</string>
     <string name="Acercade4">  Medellín-2017 </string>
-    <string name="Acercade5">  Cotinga es posible gracias a la colaboracion de: </string>
+    <string name="Acercade5">  Cotinga is possible thanks to the collaboration of: </string>
 
     <string name="info1">  Bird Shape </string>
     <string name="info2">  Beak Shape </string>
@@ -82,12 +82,12 @@
     <string name="colorinfo14"> Green</string>
 
     <string name="filtro1"> SEARCH CRITERIA</string>
-    <string name="filtro1_dialogo"> Aquí encontrará un filtro donde podrá identificar y registrar las aves que está viendo durante el recorrido</string>
+    <string name="filtro1_dialogo"> Use the criteria of search to identify easily the wished bird</string>
 
     <string name="filtro2"> Search  </string>
     <string name="filtro3"> Return </string>
 
-    <string name="recomiendame_dialogo"> A continuación encontrará una serie de recomendaciones para que la experiencia de avistamiento de aves en Jardín sea agradable, segura y amigable con el medio ambiente</string>
+    <string name="recomiendame_dialogo"> Here you will find a series of recommendations in order that the experience of  sighting  birds in Jardín is agreeable, sure and amicable with the environment</string>
 
     <string name="recomiendame"> Select each landscape item for general information </string>
 
@@ -179,7 +179,7 @@
     </string-array>
 
     <string-array name="FormaPico">
-        <item>  Otros </item>
+        <item>  Others </item>
         <item>  Predacious </item>
         <item>  Nectarivore </item>
         <item>  Multipurpose </item>
@@ -247,20 +247,18 @@
     </string-array>
 
     <string name="no_sitio">No results. Try again</string>
-
+    <string name="ruta">Route</string>
     <string name="ruta1">La Herrera</string>
     <string name="ruta2">La Salada</string>
     <string name="ruta3">Verdun-Mesenia</string>
     <string name="ruta4">Ventanas</string>
 
-    <string name="longitud">Longitud de la ruta: </string>
+    <string name="longitud">Length of the route: </string>
 
 
-
-
-    <string name="avistamiento1">*** Avistada ***</string>
-    <string name="avistamiento3">Avistada</string>
-    <string name="avistamiento2">Ha sido avistada</string>
+    <string name="avistamiento1">*** Sighted***</string>
+    <string name="avistamiento3">Sighted</string>
+    <string name="avistamiento2">It has been sighted</string>
 
     <string name="d1">Tímido y común en arbustos cernanos al suelo</string>
     <string name="d2">Relacionado a fuentes hídricas debido a su principal alimento (peces)</string>
@@ -544,8 +542,6 @@
     <string name="d280">Local y común en las copas de los arboles</string>
     <string name="d281">Común en areas abiertas y jardines</string>
     <string name="d282">Muy común en lugares y parques urbanos</string>
-
-
     <string name="dfault"> Ave sin descripción disponible en el momento </string>
 
     <string name="title_activity_maps">Map</string>
@@ -602,17 +598,19 @@
     <string name="title_activity_mapa_ventanas">Map</string>
     <string name="title_activity_mapa_verdun">Map</string>
 
-    <string name="title_activity_sobre_cotinga">Sobre Cotinga</string>
+    <string name="title_activity_sobre_cotinga">About  Cotinga</string>
 
-    <string name="textjardin">Es una aplicación que muestra las aves que se pueden avistar en el municipio de Jardin (Ant.), además de rutas de avistamiento, sitios turísticos,
-        guías turísticos en la región y algunas recomendaciones para los turistas.</string>
-    <string name="textjardin2"> El propósito del proyecto es fomentar el turismo hacia el municipio.</string>
+    <string name="cotinga">What is Cotinga?</string>
+
+    <string name="textjardin">It is a tool to support the sustainable tourism in observation of birds. The application contains a list of the birds that they can sight in the town of Jadín (Ant.). Besides routes of sighting, tourist sites,
+        Tourist guides in the region and some recommendations for the tourists.</string>
+    <string name="textjardin2"> To know more about Jardín, you can also visit this link.</string>
     <string name="enlacejardin">www.eljardin-antioquia.gov.co/index.shtml</string>
     <string name="btmap">Go to map</string>
 
-    <string name="info">Información</string>
+    <string name="info">Information</string>
 
-    <string name="dialogo1">En esta sección encontrará las rutas en las cuales es posible avistar las aves </string>
-    <string name="dialogo2">Es esta sección podrá acceder a la información detallada del ave seleccionada, tomar una fotografía y compartirla a través de redes sociales </string>
+    <string name="dialogo1">Here you will find 4 routes designed to enjoy the experience of sighting birds</string>
+    <string name="dialogo2">Besides the detailed information of the bird you will be able to accede to a link with his trill, to take a photography and to share it across social networks </string>
 
 </resources>

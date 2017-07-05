@@ -80,10 +80,10 @@ public class Rutas extends AppCompatActivity implements AdapterView.OnItemSelect
 
     private void initializeData(){
 
-        rutas.add(new Rutas_constructor("La Herrera", "Ruta 1", "","3.914 Km"));
-        rutas.add(new Rutas_constructor("La Salada", "Ruta 2", "","5.925 Km"));
-        rutas.add(new Rutas_constructor("Verdun-Mesenia", "Ruta 3","", "24,62 Km"));
-        rutas.add(new Rutas_constructor("Ventanas", "Ruta 4","", "19,75 Km"));
+        rutas.add(new Rutas_constructor("La Herrera", " 1", "","3.914 Km"));
+        rutas.add(new Rutas_constructor("La Salada", "  2", "","5.925 Km"));
+        rutas.add(new Rutas_constructor("Verdun-Mesenia", " 3","", "24,62 Km"));
+        rutas.add(new Rutas_constructor("Ventanas", " 4","", "19,75 Km"));
     }
 
 

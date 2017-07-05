@@ -4,10 +4,8 @@
 
         <item
         android:id="@+id/boton_info"
-        android:icon="@mipmap/ic_information_button"
+        android:icon="@mipmap/ic_action_information_button"
         app:showAsAction="always"
-        android:title=" informacion" />
-
-
+        android:title="@string/info" />
 
 </menu>

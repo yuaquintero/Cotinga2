@@ -69,6 +69,7 @@ public class adaptadorRutas  extends RecyclerView.Adapter<adaptadorRutas.MyViewH
     }
 
     @Override
+
     public int getItemCount() {
         return Ruta.size();
     }

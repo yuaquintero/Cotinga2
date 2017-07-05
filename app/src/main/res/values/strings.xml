@@ -80,12 +80,12 @@
     <string name="colorinfo14"> Verde</string>
 
     <string name="filtro1"> CRITERIOS DE BÚSQUEDA</string>
-    <string name="filtro1_dialogo"> Aquí encontrará un filtro donde podrá identificar y registrar las aves que está viendo durante el recorrido</string>
+    <string name="filtro1_dialogo"> Use los criterio de búsqueda para identificar fácilmente el ave deseada</string>
 
     <string name="filtro2"> Buscar </string>
     <string name="filtro3"> Volver </string>
 
-    <string name="recomiendame_dialogo"> En esta sección  encontrará una serie de recomendaciones para que la experiencia de avistamiento de aves en Jardín sea agradable, segura y amigable con el medio ambiente</string>
+    <string name="recomiendame_dialogo"> Aquí encontrará una serie de recomendaciones para que la experiencia de avistamiento de aves en Jardín sea agradable, segura y amigable con el medio ambiente</string>
     <string name="recomiendame"> Pulse sobre cada globo para obtener información</string>
 
     <string name="recor1"> - Tenga clara la ruta que quiere realizar </string>
@@ -243,7 +243,7 @@
 
     <string name="no_sitio">No hay resultados. Intente con otro criterio</string>
 
-
+     <string name="ruta">Ruta</string>
     <string name="ruta1">La Herrera</string>
     <string name="ruta2">La Salada</string>
     <string name="ruta3">Verdun-Mesenia</string>
@@ -258,7 +258,7 @@
     <string name="avistamiento3">Avistada</string>
     <string name="avistamiento2">Ha sido avistada</string>
 
-    <string name="d1">Tímido y común en arbustos cernanos al suelo</string>
+    <string name="d1">Tímido y común en arbustos cercanos al suelo</string>
     <string name="d2">Relacionado a fuentes hídricas debido a su principal alimento (peces)</string>
     <string name="d3">Abundante y fácil de encontrar en potreros</string>
     <string name="d4">Solitaria y común en las orillas de fuentes hídricas</string>
@@ -338,11 +338,11 @@
     <string name="d78">Es común entre temporadas y migrante altitudinal</string>
     <string name="d79">Común en bosques subtropicales que se reconoce por sus botas blancas</string>
     <string name="d80">Llama la atención por su pequeño tamaño y cola en forma de raqueta además de sus botas</string>
-    <string name="d81">Común y frecuente en jardines y bosques de galeria</string>
+    <string name="d81">Común y frecuente en jardines y bosques de galería</string>
     <string name="d82">Se alimenta de pequeñas flores y suele libar perchado se puede reconocer por su cola rufa</string>
-    <string name="d83">Su larga cola azul llaman la atención en todo momento, común a lo largo de los andes</string>
-    <string name="d84">Su larga cola purpura llaman la atención en todo momento y su distribución se acentúa en la vertiente occidental de la misma cordillera</string>
-    <string name="d85">Un poco común de zonas con clima templado y fácil de reconocer por sus tonos claros y garganta purpura</string>
+    <string name="d83">Su larga cola azul llaman la atención en todo momento, común a lo largo de los Andes</string>
+    <string name="d84">Su larga cola púrpura llaman la atención en todo momento y su distribución se acentúa en la vertiente occidental de la misma cordillera</string>
+    <string name="d85">Un poco común de zonas con clima templado y fácil de reconocer por sus tonos claros y garganta púrpura</string>
     <string name="d86">Habita zonas más bajas que Chaetocercus mulsant</string>
     <string name="d87">Fácil de identificar por su vuelo horizontal y aleteo zumbador</string>
     <string name="d88">Común y muy buscado en los Andes por su colorido plumaje</string>
@@ -351,7 +351,7 @@
     <string name="d91">Migratoria común pero no muy fácil de ubicar ya que por lo general busca perchas que le permiten lograr un buen camuflaje</string>
     <string name="d92">Común en pequeños ríos y lagunas de tierras templadas</string>
     <string name="d93">Muy común y llamativo por su elegancia y tranquilidad</string>
-    <string name="d94">Muy vocal y solitario habitante del subtropical, se le puede observar también el pareja</string>
+    <string name="d94">Muy vocal y solitario habitante del subtropical, se le puede observar también en pareja</string>
     <string name="d95">Poco común, impredecible y habitante de bosques húmedos</string>
     <string name="d96">Común en arbustos, su colorido es muy llamativo y se le relaciona con bandadas mixtas</string>
     <string name="d97">Muy común y tranquilo. Su movimiento se da en pareja o grupos pequeños</string>
@@ -367,14 +367,14 @@
     <string name="d107">Común en bosques húmedos, relacionado con bandadas mixtas</string>
     <string name="d108">Común pero solitario del bosque, uno de los mas grandes y poderoso de tierras altas</string>
     <string name="d109">Trepatroncos poco común, tamaño medio</string>
-    <string name="d110">Migratorio común en bosque de galeria y jardines</string>
+    <string name="d110">Migratorio común en bosque de galería y jardines</string>
     <string name="d111">Común en zonas cálidas</string>
     <string name="d112">El más común en climas frio</string>
     <string name="d113">Trepatroncos poco común, pico curvo muy distintivo</string>
     <string name="d114">Chamicero muy común  y bocal</string>
     <string name="d115">Común y asociada permanentemente a fuentes acuosas</string>
     <string name="d116">Chamicero muy común  y bocal</string>
-    <string name="d117">Común en bosques de galeria y zona urbanas </string>
+    <string name="d117">Común en bosques de galería y zona urbanas </string>
     <string name="d118">Chamicero común, casi siempre en parejas </string>
     <string name="d119">Hermoso trepatroncos, diseño perlado en su plumaje, común</string>
     <string name="d120">Común sobretodo en zonas urbanas y areas abiertas</string>
@@ -385,7 +385,7 @@
     <string name="d125">Tordo que recientemente viene colonizando tierras altas, mas común en áreas bajas y planicies</string>
     <string name="d126">Común en clima templado y muy vocal. Llamativo por su plumaje barrado</string>
     <string name="d127">Común en bosques secundarios y relacionado con bandadas mixtas</string>
-    <string name="d128">Común y frecuentemente con bandadas mixtas en los bordes de bosque humedo</string>
+    <string name="d128">Común y frecuentemente con bandadas mixtas en los bordes de bosque húmedo</string>
     <string name="d129">Común, su hábitat principalmente se da en lugares donde se da el Chusque</string>
     <string name="d130">Migratorio común, frecuentemente en areas abiertas</string>
     <string name="d131">Común en la densa vegetación, lo que dificulta su observación</string>
@@ -457,7 +457,7 @@
     <string name="d197">Muy común en clima frio y facil de observar</string>
     <string name="d198">Común y muy vocal mas que todo en la madrugada y el atardecer</string>
     <string name="d199">Muy común y relacionada con zonas urbanas</string>
-    <string name="d200">Común en bosque de galeria y tambien terrestre</string>
+    <string name="d200">Común en bosque de galería y tambien terrestre</string>
     <string name="d201">Poco común y muy vocal, a menudo percha en las copas de los arboles</string>
     <string name="d202">Muy común y activo entre el dosely además relacionado con bandadas mixtas</string>
     <string name="d203">Muy común y conocido por parasitar nidos de otras aves</string>
@@ -500,7 +500,7 @@
     <string name="d240">Poco común, frecuente con bandadas mixtas a media altura</string>
     <string name="d241">Común y a menudo con bandadas mixtas en bordes de bosque montano</string>
     <string name="d242">Común y local en areas abiertas a menudo salitarias</string>
-    <string name="d243">Común en pareja y a menudo muy activa en bordes del bosque humedo</string>
+    <string name="d243">Común en pareja y a menudo muy activa en bordes del bosque húmedo</string>
     <string name="d244">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
     <string name="d245">Común entre la ramas de los arboles</string>
     <string name="d246">Común pero timida y habita el sotobosque</string>
@@ -515,22 +515,22 @@
     <string name="d255">Poco frecuente en bosque montano</string>
     <string name="d256">Local y relacionada con aguas corrientes o riachuelos</string>
     <string name="d257">Muy común con bandadas mixtas en su mayoria tangaras en lugares abiertos</string>
-    <string name="d258">Común en zonas abiertas y bosques de galeria</string>
+    <string name="d258">Común en zonas abiertas y bosques de galería</string>
     <string name="d259">Común en areas abiertas y pocas veces con bandadas mixtas</string>
     <string name="d260">Poco común y a menudo en pequeñas bandadas de su propia especie además de ser muy activas vocalmente</string>
     <string name="d261">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
     <string name="d262">Común y local, a menudo con bandas mixtas y relacionada con el chusque</string>
     <string name="d263">Común y a menudo con bandas mixtas en bordes de bosque montano</string>
-    <string name="d264">Común y frecuentemente con bandadas mixtas en los bordes de bosque humedo</string>
-    <string name="d265">Común en areas abiertas y bosques de galeria</string>
-    <string name="d266">Común en areas abiertas y bosques de galeria</string>
-    <string name="d267">Común en areas abiertas y bosques de galeria</string>
-    <string name="d268">Migratorio común en bosque de galeria</string>
+    <string name="d264">Común y frecuentemente con bandadas mixtas en los bordes de bosque húmedo</string>
+    <string name="d265">Común en areas abiertas y bosques de galería</string>
+    <string name="d266">Común en areas abiertas y bosques de galería</string>
+    <string name="d267">Común en areas abiertas y bosques de galería</string>
+    <string name="d268">Migratorio común en bosque de galería</string>
     <string name="d269">Poco frecuente y local, se le observa a mediana y baja altura</string>
     <string name="d270">Muy común y activo en pequeños arbustos</string>
     <string name="d271">Muy común en bordes de bosque montano</string>
     <string name="d272">Común pero timido, a menudo cerca al suelo</string>
-    <string name="d273">Muy común en areas abiertas y bosque de galeria</string>
+    <string name="d273">Muy común en areas abiertas y bosque de galería</string>
     <string name="d274">Común en areas abiertas y zonas arbustivas</string>
     <string name="d275">Poco frecuente, a menudo en pastizales y pequeños arbustos</string>
     <string name="d276">Muy común y a menudo en bandada con especies de su familia</string>
@@ -599,16 +599,19 @@
     <string name="title_activity_mapa_verdun">Map</string>
     <string name="title_activity_sobre_cotinga">Sobre Cotinga</string>
 
-    <string name="textjardin">Es una aplicación que muestra las aves que se pueden avistar en el municipio de Jardin (Ant.), además de rutas de avistamiento, sitios turísticos,
-        guías turísticos en la región y algunas recomendaciones para los turistas.</string>
-   <string name="textjardin2"> El propósito del proyecto es fomentar el turismo hacia el municipio.</string>
-    <string name="enlacejardin">www.eljardin-antioquia.gov.co/index.shtml</string>
+    <string name="cotinga">¿Qué es Cotinga?</string>
 
+    <string name="textjardin">Es una herramienta para apoyar el turismo sostenible en observación de aves. La aplicación contiene un listado de las aves que se pueden
+        avistar en el municipio de Jardín (Ant.), además de rutas de avistamiento, sitios turísticos,
+        guías turísticos en la región y algunas recomendaciones para los turistas.</string>
+    <string name="textjardin2"> Para conocer más sobre Jardín visite el siguiente enlace.</string>
+    <string name="enlacejardin">www.eljardin-antioquia.gov.co/index.shtml</string>
     <string name="btmap">Ir al mapa</string>
+
     <string name="info">Información</string>
 
-    <string name="dialogo1">En esta sección encontrará las rutas en las cuales es posible avistar las aves </string>
-    <string name="dialogo2">Es esta sección podrá acceder a la información detallada del ave seleccionada, tomar una fotografía y compartirla a través de redes sociales </string>
+    <string name="dialogo1">Acá encontrará 4 rutas diseñadas para disfrutar la experiencia de avistamiento de aves</string>
+    <string name="dialogo2">Además de la información detallada del ave podrá acceder a un enlace con su trino, tomar una fotografía y compartirla a través de redes sociales</string>
 
 
 </resources>

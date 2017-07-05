@@ -21,7 +21,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQTD31AkNvwkgg13ji-ueFq_miVPUYkt8"
+          "current_key": "AIzaSyBBmKpitS_7hPP4zIJRNFFFemLGWxTT6OM"
         }
       ],
       "services": {
@@ -52,7 +52,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQTD31AkNvwkgg13ji-ueFq_miVPUYkt8"
+          "current_key": "AIzaSyBBmKpitS_7hPP4zIJRNFFFemLGWxTT6OM"
         }
       ],
       "services": {
@@ -83,7 +83,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQTD31AkNvwkgg13ji-ueFq_miVPUYkt8"
+          "current_key": "AIzaSyBBmKpitS_7hPP4zIJRNFFFemLGWxTT6OM"
         }
       ],
       "services": {
@@ -114,7 +114,38 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDQTD31AkNvwkgg13ji-ueFq_miVPUYkt8"
+          "current_key": "AIzaSyBBmKpitS_7hPP4zIJRNFFFemLGWxTT6OM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351422314632:android:2be75e057c63a5ae",
+        "android_client_info": {
+          "package_name": "app.sennova.cotinga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351422314632-kj0t8imtavqelbv92sr6s9gosmu762hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmKpitS_7hPP4zIJRNFFFemLGWxTT6OM"
         }
       ],
       "services": {
