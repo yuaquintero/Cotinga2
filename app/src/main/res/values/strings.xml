@@ -59,7 +59,7 @@
     <string name="picoinfo4">  Multiusos </string>
     <string name="picoinfo5">  Semillero </string>
     <string name="picoinfo6">  Frugívoro </string>
-    <string name="picoinfo7">  Barbudo </string>
+    <string name="picoinfo7">  Pato</string>
     <string name="picoinfo8">  Insectívoro </string>
     <string name="picoinfo9">  Generalista </string>
     <string name="picoinfo10"> Oropéndola </string>
@@ -180,7 +180,7 @@
         <item>  Multiusos </item>
         <item>  Semillero </item>
         <item>  Frugívoro </item>
-        <item>  Barbudo </item>
+        <item>  Pato </item>
         <item>  Insectívoro </item>
         <item>  Generalista </item>
         <item>  Oropéndola </item>

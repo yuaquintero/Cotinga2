@@ -61,7 +61,7 @@
     <string name="picoinfo4">  Multipurpose </string>
     <string name="picoinfo5">  Seedbed </string>
     <string name="picoinfo6">  Frugivore </string>
-    <string name="picoinfo7">  Bearded </string>
+    <string name="picoinfo7">  Duck </string>
     <string name="picoinfo8">  Insectivorous </string>
     <string name="picoinfo9">  Generalist </string>
     <string name="picoinfo10"> Oriole </string>
@@ -185,7 +185,7 @@
         <item>  Multipurpose </item>
         <item>  Seedbed </item>
         <item>  Frugivore </item>
-        <item>  Bearded </item>
+        <item>  Duck </item>
         <item>  Insectivorous </item>
         <item>  Generalist </item>
         <item>  Oriole </item>

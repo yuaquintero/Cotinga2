@@ -111,9 +111,9 @@ public class Aves_bd extends SQLiteOpenHelper {
             "('6','3','9','0','0','Guardacaminos Migratorio','Common Nighthawk','chordeiles minor','0','0','http://www.xeno-canto.org/333896','8','0'),"+
             "('13','3','9','0','0','Martín Pescador Verde','Green Kingfisher','Chloroceryle americana','1','0','http://www.xeno-canto.org/148103','8','0'),"+
             "('13','2','9','7','0','Barranquero','Andean Motmot','Momotus aequatorialis','1','0','http://www.xeno-canto.org/344320','15','0'),"+
-            "('4','3','9','6','0','Bigotudo Canoso','Moustached Puffbird','Malacoptila mystacalis','1','0','http://www.xeno-canto.org/354181','14','0'),"+
-            "('4','3','9','6','0','Buco Cariblanco','White-Faced Nunbird','Hapaloptila castanea','1','0','http://www.xeno-canto.org/260581','2','0'),"+
-            "('13','11','9','6','0','Torito Cabecirrojo','Red-headed Barbet','Eubucco bourcierii','1','0','http://www.xeno-canto.org/344374','15','0'),"+
+            "('4','3','9','8','0','Bigotudo Canoso','Moustached Puffbird','Malacoptila mystacalis','1','0','http://www.xeno-canto.org/354181','14','0'),"+
+            "('4','3','9','8','0','Buco Cariblanco','White-Faced Nunbird','Hapaloptila castanea','1','0','http://www.xeno-canto.org/260581','2','0'),"+
+            "('13','11','9','8','0','Torito Cabecirrojo','Red-headed Barbet','Eubucco bourcierii','1','0','http://www.xeno-canto.org/344374','15','0'),"+
             "('13','11','9','5','0','Tucaneta Esmeralda','Emerald Toucanet','Aulacorhynchus prasinus','1','0','http://www.xeno-canto.org/98822','15','0'),"+
             "('13','2','9','5','0','Tucaneta Culirroja','Crimson-Rumped Toucanet','Aulacorhynchus haematopygus','1','0','http://www.xeno-canto.org/310770','10','0'),"+
             "('2','3','9','5','0','Paletón Pechiazul','Black-Billed Mountain Toucan','Andigena nigrirostris','1','1','http://www.xeno-canto.org/344416','3','0'),"+
