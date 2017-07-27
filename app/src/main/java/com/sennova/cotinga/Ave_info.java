@@ -33,6 +33,10 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Clase que muestra la información asociada a un ave de interés
+ *
+ */
 public class Ave_info extends AppCompatActivity {
 
     String Identificador;
@@ -80,13 +84,12 @@ public class Ave_info extends AppCompatActivity {
 
     TextView nombre,nombreingles,nombrecientifico,info1,info2,info3,info4,info5,info6,info7,info8,descripcion;
     ImageView pajaro;
-
-
-    //Para la cámara
-    //private final String ruta_fotos = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/misAves/";
-    //private File file = new File(ruta_fotos);
     private ImageButton boton,compartir;
 
+    /**
+     * Método para traer la información de las aves
+     *
+     */
    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -158,9 +161,6 @@ public class Ave_info extends AppCompatActivity {
         int resourceID2 = getResources().getIdentifier("ave_"+id+"_a", "drawable", getPackageName());
 
         avefoto.setBackgroundResource(resourceID);
-        //pajaro.setBackgroundResource(resourceID);
-
-
         final int[]fotoid={resourceID,resourceID2};
         total=fotoid.length;
 
@@ -177,7 +177,6 @@ public class Ave_info extends AppCompatActivity {
             }
         });
 
-
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -190,18 +189,11 @@ public class Ave_info extends AppCompatActivity {
             }
         });
 
-
-
-        //
-
-        //Toast.makeText(Ave_info.this, vistasave+" Ha sido avistada", Toast.LENGTH_SHORT).show();
-
         if (vistasave.equals("1")){
             avistamiento.setEnabled(false);
             avistamiento.setChecked(true);
 
         }
-
 
         avistamiento.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -1076,7 +1068,6 @@ public class Ave_info extends AppCompatActivity {
 
         }
 
-
         switch(Integer.parseInt(rutaave)){
             case 0:
                 info8.setText(R.string.rutainfo1);
@@ -1203,7 +1194,7 @@ public class Ave_info extends AppCompatActivity {
                 info1.setText(R.string.formainfo10);
                 formaAveR="9";
                 break;
-            default:
+             default:
                 info1.setText(R.string.formainfo1);
                 formaAveR="0";
                 break;
@@ -1482,7 +1473,10 @@ public class Ave_info extends AppCompatActivity {
         return image_file;
     }
 
-
+    /**
+     * Método que crea menu lateral
+     *
+     */
   @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
@@ -1490,7 +1484,10 @@ public class Ave_info extends AppCompatActivity {
         return true;
     }
 
-
+    /**
+     * Método para retornar a panalla home luego de dar clic sobre el ícono Home
+     *
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
@@ -1522,6 +1519,10 @@ public class Ave_info extends AppCompatActivity {
         return true;
     }
 
+    /**
+     * Método que guarda la foto de las aves o comparte
+     *
+     */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         if(resultCode == RESULT_OK && requestCode == PICK_IMAGE) {
@@ -1545,7 +1546,10 @@ public class Ave_info extends AppCompatActivity {
     }
 
 
-
+    /**
+     * Método para retornar a panalla home luego de dar clic sobre el botón Back de Android
+     *
+     */
     @Override
     public void onBackPressed() {
         Intent explicit_intent;

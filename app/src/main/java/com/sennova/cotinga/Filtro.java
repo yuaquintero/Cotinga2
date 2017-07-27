@@ -17,6 +17,10 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase que recoge la información de los spinner y realiza procedimiento para obtener el resultado esperado (aves filtradas)
+ *
+ */
 public class Filtro extends AppCompatActivity {
 
     TextView colorprimario, colorsecundario,formapico, formaave, tamano;
@@ -42,8 +46,12 @@ public class Filtro extends AppCompatActivity {
 
     //*****Declaración preferencias
     public SharedPreferences preferenciasfiltro;
-    final Context contextofiltro = this;  //*****
+    final Context contextofiltro = this;
 
+    /**
+     * Método que valida información traída de la clase Avistamiento
+     *
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,11 +77,6 @@ public class Filtro extends AppCompatActivity {
             String colorSecundarioR = preferenciasfiltro.getString("color2","0");
             String formaAveR = preferenciasfiltro.getString("formave","0");
             String formaPicoR = preferenciasfiltro.getString("formapico","0");
-            /*
-            String colorPrimarioR=(String)extras.get("colorPrimario");
-            String colorSecundarioR=(String)extras.get("colorSecundario");
-            String formaPicoR= (String) extras.get("formaPico");
-            String formaAveR= (String) extras.get("formaAve"); */
 
             colorprimario.setText(colorPrimarioR);
             colorsecundario.setText(colorSecundarioR);
@@ -116,12 +119,19 @@ public class Filtro extends AppCompatActivity {
 
     }
 
+    /**
+     * Método para traer adaptador de aves
+     *
+     */
     private void initializeAdapter(){
         adaptador_aves adapter = new adaptador_aves(lista_aves);
         rv.setAdapter(adapter);
     }
 
-
+    /**
+     * Método que valida y filtra la información traída con la que se encuentra en la base de datos.
+     * Recorre la información de cada ave y compara con las características solicitadas.
+     */
     private void prepareMovieData() {
 
         lista_aves = new ArrayList<>();
@@ -237,7 +247,10 @@ public class Filtro extends AppCompatActivity {
     }
 
 
-
+    /**
+     * Método que crea menu lateral
+     *
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu)
     {
@@ -245,7 +258,10 @@ public class Filtro extends AppCompatActivity {
         return true;
     }
 
-
+    /**
+     * Método para retornar a panalla home luego de dar clic sobre el ícono Home
+     *
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
@@ -267,6 +283,10 @@ public class Filtro extends AppCompatActivity {
         return true;
     }
 
+    /**
+     * Método para retornar a panalla home luego de dar clic sobre el botón Back de Android
+     *
+     */
     @Override
     public void onBackPressed() {
         Intent goback = new Intent(Filtro.this, Avistamiento.class);

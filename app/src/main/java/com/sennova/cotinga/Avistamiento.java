@@ -261,6 +261,9 @@ public class Avistamiento extends AppCompatActivity  {
                         }else if (position == 9) {
                             ivCriterio5.setImageResource(R.drawable.forma9);
                             formaAve = "9";
+                        }else if (position == 10) {
+                            ivCriterio5.setImageResource(R.drawable.formas);
+                            formaAve = "10";
                         }
                     }
 

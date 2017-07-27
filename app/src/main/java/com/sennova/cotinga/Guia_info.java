@@ -135,22 +135,6 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
 
         permiso = new Permisos(miLayout,Guia_info.this);
 
-       /* b_telefono = (ImageButton) findViewById(R.id.b_llamar);
-        b_telefono.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String tele=String.valueOf(miLugar2.getTelefono());
-
-                if(tele != null)
-                    permiso.LanzarLlamada(String.valueOf(miLugar2.getTelefono()));
-                else {
-                    String msg=getString(R.string.no_tele);
-                    Toast.makeText(Guia_info.this,msg,Toast.LENGTH_SHORT).show();
-                }
-            }
-
-        });*/
-//********
 //habilitar el boton de calificar
         b_califica = (Button)findViewById(R.id.b_califica);
         b_califica.setOnClickListener(new View.OnClickListener() {
@@ -267,7 +251,10 @@ public class Guia_info extends AppCompatActivity implements ActivityCompat.OnReq
         return true;
     }
 
-    //Función para validar la existencia de un correo en las preferencias
+    /**Función para validar la existencia de un correo en las preferencias
+     *
+     * */
+
     public boolean Buscar_Mail(String buscarMail){
         boolean estado;
         estado = pref.getBoolean(buscarMail,false);
